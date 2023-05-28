@@ -98,6 +98,7 @@ alembic upgrade 2a43
 to downgrade the recent migration simply alembic downgrade first three or four initials of your recent version created in my case command was
 alembic downgrade 2a43
 ```
-### Possible extensions
+### Possible extensions and inprovements
 
-* Oauth with multiple providers like login with Google, Facebook Github etc.
+* Add Oauth with multiple providers like login with Google, Facebook Github etc.
+* Add unit tests for register, login etc.

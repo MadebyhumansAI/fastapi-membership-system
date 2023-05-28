@@ -10,6 +10,10 @@ RUN apt-get update && \
 
 COPY ./project /project/
 
-WORKDIR /
+WORKDIR /project 
+
+RUN init alembic && \
+    alembic revision --autogenerate -m "Initial migration" && \
+    alembic upgrade head
 
 CMD ["python3", "application.py"]

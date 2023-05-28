@@ -6,7 +6,7 @@ from project.constant.status_constant import SUCCESS, FAIL
 from fastapi.responses import FileResponse
 
 # This way all the tables can be created in database but cannot be updated for that use alembic migrations
-usr_user.Base.metadata.create_all(bind=engine)
+# usr_user.Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="FastApi-Boilerplate", description="A Perfect Boiler Plate For Developing In Production",
               version="1.0")
