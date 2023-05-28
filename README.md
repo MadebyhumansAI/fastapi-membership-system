@@ -1,9 +1,4 @@
 ## This is a Fork of the wonderful Fastapi boilerplate for production by @hunnyjain711. Adaptde to work with Poetry and containerized for deployment on cloud.
-<p align="center">
-    <em>FastAPI framework, high performance, easy to learn, fast to code, ready for production</em>
-</p>
-
-* Medium: https://medium.com/@hunnyjain711/fastapi-boilerplate-for-production-development-with-mysql-and-alembic-migrations-36f789caa906
 
 ## Technology Stack:
 * Python version 3.7 or above
