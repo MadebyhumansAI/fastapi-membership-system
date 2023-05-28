@@ -1,6 +1,6 @@
-### This is a Fork of the wonderful Fastapi boilerplate for production by @hunnyjain711. Adapted to work with Poetry and containerized for deployment on cloud.
+### This is a Fork of the wonderful Fastapi boilerplate for production by @hunnyjain711. Thanks for creating this. Adapted to work with Poetry and containerized for deployment on cloud.
 
-## Technology Stack:
+### Technology Stack:
 * Python version 3.7 or above
 * FastAPI
 * Uvicorn (server)
@@ -9,7 +9,7 @@
 * Alembic (database migrations)
 
 
-## Directory Tree
+### Directory Tree
 ```
 fastapi-production-boilerplate
 ┣ project
@@ -59,7 +59,7 @@ fastapi-production-boilerplate
 ┗ requirements.txt
 ```
 
-## How to start the project ?
+### How to start the project ?
 ```
 git clone https://github.com/Hunnyjain7/fastapi-production-boilerplate.git
 cd fastapi-production-boilerplate
@@ -73,7 +73,7 @@ visit Swagger UI docs screen at 127.0.0.1:8000/docs  # here all api routing and 
 
 ```
 
-## Guide towards the Alembic Migrations for SqlAlchemy in FastAPI
+### Guide towards the Alembic Migrations for SqlAlchemy in FastAPI
 ```
 * Install alembic
 pip install alembic
@@ -98,3 +98,6 @@ alembic upgrade 2a43
 to downgrade the recent migration simply alembic downgrade first three or four initials of your recent version created in my case command was
 alembic downgrade 2a43
 ```
+### Possible extensions
+
+* Oauth with multiple providers like login with Google, Facebook Github etc.
