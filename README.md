@@ -1,8 +1,4 @@
-## FastAPI Boilerplate for Production Development with MySql and Alembic Migrations
-
-<p align="center">
-  <a href="https://fastapi.tiangolo.com"><img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" alt="FastAPI"></a>
-</p>
+## This is a Fork of the wonderful Fastapi boilerplate for production by @hunnyjain711. Adaptde to work with Poetry and containerized for deployment on cloud.
 <p align="center">
     <em>FastAPI framework, high performance, easy to learn, fast to code, ready for production</em>
 </p>
